@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Basic HtML</h1>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>News</li>
+          <li>Contact</li>
+          <li>About</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div>
+          <h1>The span element</h1>
+
+          <p>
+            My mother has
+            <span>blue</span> eyes and my father has
+            <span>dark green</span>
+            eyes.
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+            pariatur error tempore totam delectus necessitatibus unde nostrum
+            quibusdam minus deleniti optio soluta laborum voluptatibus
+            asperiores quas placeat non, suscipit dolorem sit, distinctio ipsam
+            tenetur amet? Esse deserunt odit explicabo totam illum, ratione
+            cupiditate provident hic aperiam sed accusantium voluptatibus!
+            Facilis?
+          </p>
+        </div>
+      </section>
+      <section>
+        <form action="/action_page.php">
+          <label for="fname">First name:</label><br />
+          <input type="text" id="fname" name="fname" value="John" /><br />
+          <label for="lname">Last name:</label><br />
+          <input type="text" id="lname" name="lname" value="Doe" /><br /><br />
+          <input type="submit" value="Submit" /><br /><br />
+          <input type="radio" id="html" name="fav_language" value="HTML" />
+          <label for="html">HTML</label><br />
+          <input type="radio" id="css" name="fav_language" value="CSS" />
+          <label for="css">CSS</label><br />
+
+          <input
+            type="radio"
+            id="javascript"
+            name="fav_language"
+            value="JavaScript"
+          />
+          <label for="javascript">JavaScript</label>
+        </form>
+      </section>
+      <section>
+        <table>
+          <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+          </tr>
+          <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+          </tr>
+          <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+          </tr>
+        </table>
+      </section>
+      <section>
+        <iframe
+          src="./audio_video_file/file_example_MP4_480_1_5MG.mp4"
+          title="nodejs login and signup video"
+        >
+        </iframe>
+      </section>
+      <section>
+        <details>
+          <summary>Epcot Center</summary>
+          <p>
+            Epcot is a theme park at Walt Disney World Resort featuring exciting
+            attractions, international pavilions, award-winning fireworks and
+            seasonal special events.
+          </p>
+        </details>
+      </section>
+      <section>
+        <div>
+          <picture>
+            <source
+              media="(min-width:650px)"
+              srcset="
+                https://media.geeksforgeeks.org/wp-content/uploads/20190802021607/geeks14.png
+              "
+            />
+            <source
+              media="(min-width:465px)"
+              srcset="
+                https://media.geeksforgeeks.org/wp-content/uploads/20190825000042/geeks-221.png
+              "
+            />
+
+            <img src="./images/download.jpg" alt="Flowers" style="width: 50%" />
+          </picture>
+        </div>
+        <div>
+          <audio controls>
+            <source
+              src="./audio_video_file/file_example_OOG_1MG.ogg"
+              type="audio/ogg"
+            />
+            <source
+              src="./audio_video_file/file_example_MP3_700KB.mp3"
+              type="audio/mp3"
+            />
+          </audio>
+        </div>
+      </section>
+      <section>
+        <video width="320" height="240" controls>
+          <source
+            src="./audio_video_file/file_example_MP4_480_1_5MG.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </section>
+      <section>
+        <img
+          src="./images/download.jpg"
+          alt="Workplace"
+          usemap="#workmap"
+          width="400"
+          height="379"
+        />
+
+        <map name="workmap">
+          <area
+            shape="rect"
+            coords="34,44,270,350"
+            alt="Computer"
+            href="computer.html"
+          />
+        </map>
+      </section>
+      <section>
+        <h1>The article element</h1>
+
+        <article>
+          <h2>Google Chrome</h2>
+          <p>
+            Google Chrome is a web browser developed by Google, released in
+            2008. Chrome is the world's most popular web browser today!
+          </p>
+        </article>
+
+        <article>
+          <h2>Mozilla Firefox</h2>
+          <p>
+            Mozilla Firefox is an open-source web browser developed by Mozilla.
+            Firefox has been the second most popular web browser since January,
+            2018.
+          </p>
+        </article>
+
+        <article>
+          <h2>Microsoft Edge</h2>
+          <p>
+            Microsoft Edge is a web browser developed by Microsoft, released in
+            2015. Microsoft Edge replaced Internet Explorer.
+          </p>
+        </article>
+      </section>
+      <section>
+        <div>
+          <aside>
+            <h4>Epcot Center</h4>
+            <p>
+              Epcot is a theme park at Walt Disney World Resort featuring
+              exciting attractions, international pavilions, award-winning
+              fireworks and seasonal special events.
+            </p>
+          </aside>
+        </div>
+        <div>
+          <figure>
+            <img src="./images/download (1).jpg" alt="Trulli" />
+            <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+          </figure>
+        </div>
+        <div>
+          <dl>
+            <dt>Coffee</dt>
+            <dd>Black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>White cold drink</dd>
+          </dl>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 My Company. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
